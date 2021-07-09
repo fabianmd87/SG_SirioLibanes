@@ -1,0 +1,119 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeFile="Site.Master.vb" Inherits="Site" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head id="Head1" runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+        rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+        crossorigin="anonymous" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="Form1" runat="server">
+    <div class="page">
+        <div class="header">
+            <div class="title">
+                <h1>
+                    Sirio Libanes
+                </h1>
+            </div>
+            <div class="loginDisplay">
+                <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
+                    <AnonymousTemplate>
+                        [ <a href="~/Account/Login.aspx" id="HeadLoginStatus" runat="server">Iniciar sesión</a>
+                        ]
+                    </AnonymousTemplate>
+                    <LoggedInTemplate>
+                        Pantalla de bienvenida <span class="bold">
+                            <asp:LoginName ID="HeadLoginName" runat="server" />
+                        </span>! [
+                        <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Cerrar sesión"
+                            LogoutPageUrl="~/" />
+                        ]
+                    </LoggedInTemplate>
+                </asp:LoginView>
+            </div>
+            <div class="clear hideSkiplink">
+                <div class="content-fluid">
+                    <!-- Todo el contenido de la pagina va en ese DIV -->
+                    <nav class="navbar navbar-expand-sm bg-dark navbar-dark"> <!-- Todo lo que va dentro del NAV -->
+		                
+				<!-- Links -->
+	
+				<div class="col-xl-9">
+				
+					<ul class="navbar-nav"> <!-- Listas desordenadas -->
+				<!-- control de home -->
+						<li class="nav-item">
+							<a class="nav-link" href="../Default.aspx"> HOME </a>
+						</li>
+                    <!--control historia -->
+                    <li class="nav-item">
+							<a class="nav-link" href="#"> HISTORIA </a>
+						</li>
+                    <!--control beneficios -->
+                    <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="menu" data-bs-toggle="dropdown" aria-expanded="false"> BENEFICIOS </a>
+                        <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./Beneficios/AlquilerSalon.aspx">Alquiler de Salon</a></li>
+                        <li><a class="dropdown-item" href="./Beneficios/Panteon.aspx">Panteon privado</a></li>
+                        </ul>
+                    <!--control de socios -->
+                    <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="menu" data-bs-toggle="dropdown" aria-expanded="false"> SOCIOS </a>
+            
+   <!-- Ver porque no funcionan los link si vas a home y volves si funciona---------------------------
+   ----------------------------------------------------------------------------------------------------
+   --------------------------------------------------->
+                        
+                        <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./Socios/DatosSocio.aspx">Mis Datos</a></li>
+                        <li><a class="dropdown-item" href="./Socios/GestionCobranza.aspx">Cobranza</a></li>
+                        <li><a class="dropdown-item" href="./Socios/GestionBeneficio.aspx">Gestion Beneficio</a></li>
+                        <li><a class="dropdown-item" href="./Socios/EmisionCarnet.aspx">Emision Carnet</a></li>
+                                                                    
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="./Socios/Administracion.aspx">Administracion</a></li>
+                        </ul>
+                    </li>
+                    <!--control de deportes -->
+					    <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="menu" data-bs-toggle="dropdown" aria-expanded="false"> DEPORTES </a>
+                        <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./Socios/DatosSocio.aspx">Basquet</a></li>
+                        <li><a class="dropdown-item" href="./Socios/GestionCobranza.aspx">Patin</a></li>
+                        <li><a class="dropdown-item" href="./Socios/GestionBeneficio.aspx">Danza Arabe</a></li>
+                        <li><a class="dropdown-item" href="./Socios/EmisionCarnet.aspx">Comedia musical</a></li>
+                        </ul>
+                    </li>					
+				</div>
+				
+				<!-- <div class="col-xl-1">
+					<button class="btn btn-primary">SALIR</button>
+				</div> -->
+			<div class="d-flex">
+                <input class="form-control me-2" type="buscar" placeholder="En este sitio" aria-label="Buscar">
+                <button class="btn btn-outline-success " type="submit">BUSCAR</button>
+            </div>
+		</nav>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="footer">
+    </div>
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+</body>
+</html>
