@@ -7,7 +7,7 @@ Public Class BaseDatos
     Public Adaptador As New OleDbDataAdapter
     Public DS As DataSet
     Public DR As OleDbDataReader
-    Public CadenaDeConexion As String = "Provider = Microsoft.ACE.OLEDB.12.0;Data Source=Libreria.accdb"
+    Public CadenaDeConexion As String = "Data Source=DESKTOP-KGEBNP7\SQLEXPRESS;Initial Catalog=SG_SirioLibanes;Integrated Security=True"
 
     Private Function GetDataSet(query As String) As DataSet
         Try
@@ -38,4 +38,22 @@ Public Class BaseDatos
         End If
         Return False
     End Function
+
+
+    Public Sub InsertarElemento(tabla As String, campos As String, valores As String)
+        Try
+            Dim query = $"INSERT INTO {tabla} ({campos}) VALUES ({valores})"
+            GetDataSet(query)
+            System.Console.WriteLine("Datos guardados correctamente")
+        Catch
+            System.Console.WriteLine(ErrorToString)
+        End Try
+    End Sub
+
+    Public Sub CrearReserva(reserva As Reserva)
+        Dim campos = "fechaInicio, fechaFinal, salon"
+        Dim values = $"'{reserva.FechaInicio}', '{reserva.FechaFinal}', '{reserva.Salon.Id}'"
+        InsertarElemento("reservas", campos, values)
+    End Sub
+
 End Class

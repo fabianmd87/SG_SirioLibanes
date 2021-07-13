@@ -50,10 +50,9 @@ End Enum
 Public Class Reserva
 
     Public Property Id As Integer
-
     Public FechaInicio As Date
-
-    Public FechaFinal As Salon
+    Public FechaFinal As Date
+    Public Salon As Salon
 
     Public Sub New()
 
