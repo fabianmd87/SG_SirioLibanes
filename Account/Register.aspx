@@ -62,7 +62,7 @@
                             </p>
                         </fieldset>
                         <p class="submitButton">
-                            <asp:Button ID="CreateUserButton" runat="server" CommandName="MoveNext" Text="Crear usuario" 
+                            <asp:Button ID="CreateUserButton" CssClass="btn btn-outline-danger active" runat="server" CommandName="MoveNext" Text="Crear usuario" 
                                  ValidationGroup="RegisterUserValidationGroup"/>
                         </p>
                     </div>

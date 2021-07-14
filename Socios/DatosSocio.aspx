@@ -60,13 +60,7 @@
             </select><br />
         </div>
         <div class="col-12">
-            <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="gridCheck">
-                <label class="form-check-label" for="gridCheck">
-                    Check me out
-                </label>
-                <br>
-            </div>
+            
             <br />
             <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage=" * Ingrese el campo requerido NOMBRE"
                 Font-Italic="true" ForeColor="Blue" ControlToValidate="txtnombre">
@@ -82,7 +76,7 @@
             </asp:RequiredFieldValidator><br />
             
             <br />
-            <br />
+            
             <asp:Button ID="btguardar" runat="server" Text="GUARDAR" CssClass="btn btn-outline-danger active" />
         </div>
         <div class="col-12">

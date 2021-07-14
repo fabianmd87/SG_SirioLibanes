@@ -84,10 +84,10 @@
 					    <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="menu" data-bs-toggle="dropdown" aria-expanded="false"> DEPORTES </a>
                         <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="./Socios/DatosSocio.aspx">Basquet</a></li>
-                        <li><a class="dropdown-item" href="./Socios/GestionCobranza.aspx">Patin</a></li>
-                        <li><a class="dropdown-item" href="./Socios/GestionBeneficio.aspx">Danza Arabe</a></li>
-                        <li><a class="dropdown-item" href="./Socios/EmisionCarnet.aspx">Comedia musical</a></li>
+                        <li><a class="dropdown-item" href="./Deportes/Basquet/index.aspx">Basquet</a></li>
+                        <li><a class="dropdown-item" href="#">Comedia Musical</a></li>
+                        <li><a class="dropdown-item" href="#">Danza Arabe</a></li>
+                        <li><a class="dropdown-item" href="#">Patin</a></li>
                         </ul>
                     </li>					
 				</div>

@@ -5,16 +5,15 @@
 </asp:Content>
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
     <div class="container">
-    
-    
+        <br />
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
          
  <!-- NO PUEDO PONER EL CARRUCEL CON LA IMAGEN CENTRADA ----------------------
  ----------------------------------------------------------------------------->
 
-            <div class="carousel-inner" >
+            <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="./Imagenes/Astor.jpg" width="200" height="200">
+                   <img src="./Imagenes/Astor.jpg" width="200" height="200" align="top" dir="rtl">
                 </div>
                 <div class="carousel-item">
                     <img src="./Imagenes/boxer.jpg" width="200" height="200">
