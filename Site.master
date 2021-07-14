@@ -49,7 +49,7 @@
 					<ul class="navbar-nav"> <!-- Listas desordenadas -->
 				<!-- control de home -->
 						<li class="nav-item">
-							<a class="nav-link" href="../Default.aspx"> HOME </a>
+							<a class="nav-link" href="/SG_SirioLibanes/Default.aspx"> HOME </a>
 						</li>
                     <!--control historia -->
                     <li class="nav-item">
@@ -59,8 +59,8 @@
                     <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="menu" data-bs-toggle="dropdown" aria-expanded="false"> BENEFICIOS </a>
                         <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="./Beneficios/AlquilerSalon.aspx">Alquiler de Salon</a></li>
-                        <li><a class="dropdown-item" href="./Beneficios/Panteon.aspx">Panteon privado</a></li>
+                        <li><a class="dropdown-item" href="./Beneficios/Alquilerdesalon/AlquilerSalon.aspx">Alquiler de Salon</a></li>
+                        <li><a class="dropdown-item" href="./Beneficios/Panteon/Panteon.aspx">Panteon privado</a></li>
                         </ul>
                     <!--control de socios -->
                     <li class="nav-item dropdown">

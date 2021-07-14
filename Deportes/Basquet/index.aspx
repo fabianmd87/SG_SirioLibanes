@@ -37,7 +37,7 @@
         </div>
     </div><br /><br /><br />
     <div class="card" align="center">
-        <img src="./Imagenes/foto3_index_basquet.jpg" class="card-img" alt="...">
+        <img src="//Imagenes/foto3_index_basquet.jpg" class="card-img">
         <div class="card-body">
             <p class="card-text">
                 Subcomision de Basquet - Sociedad Sirio Libanesa Dean Funes</p>

@@ -13,14 +13,14 @@
 
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                   <img src="./Imagenes/Astor.jpg" width="200" height="200" align="top" dir="rtl">
+                   <img src="./Imagenes/foto1_home.jpg" width="200" height="200" align="top" dir="rtl">
                 </div>
                 <div class="carousel-item">
-                    <img src="./Imagenes/boxer.jpg" width="200" height="200">
+                    <img src="./Imagenes/foto3_index_basquet.jpg" width="200" height="200">
                 </div>
-                <div class="carousel-item">
+                <!--<div class="carousel-item">---PONER UNA IMAGEN MAS
                     <img src="./Imagenes/Bruno.jpg" width="200" height="200">
-                </div>
+                </div>-->
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
                 data-bs-slide="prev">
