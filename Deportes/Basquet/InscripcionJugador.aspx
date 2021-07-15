@@ -41,28 +41,61 @@
     <br />
     <br />
     <br />
-    <select class="form-select form-select-padding-x-lg" aria-label="Default select example" id="cbcomponente">
-  <option selected>Tipo de componente</option>
-  <option value="1">Jugador</option>
-  <option value="2">Tecnico</option>
-  <option value="3">Preparador Fisico</option>
-</select>
-<br />
+    <h1>
+        Inscripcion de Jugadores de Sirio Libanes Dean Funes</h1>
     <br />
-<div class="col-md-5">
-  <label for="formGroupExampleInput" class="form-label">Nombres</label>
-  <input type="text" class="form-control" id="txtnombre">
-</div>
-<div class="col-md-5">
-  <label for="formGroupExampleInput2" class="form-label">Apellidos</label>
-  <input type="text" class="form-control" id="txtapellido"><n></n>
-  <div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body" align="left" dir="ltr">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
-</div>
+    <br />
+    <div class="col-md-3">
+        <select class="form-select form-select-padding-x-lg" aria-label="Default select example"
+            id="cbcomponente">
+            <option selected>Tipo de componente</option>
+            <option value="1">Jugador</option>
+            <option value="2">Tecnico</option>
+            <option value="3">Preparador Fisico</option>
+        </select>
+    </div>
+    <br />
+    <div class="col-md-5">
+        <label for="formGroupExampleInput" class="form-label">
+            Nombres</label>
+        <input type="text" class="form-control" id="txtnombre"><br />
+        <label for="formGroupExampleInput2" class="form-label">
+            Apellidos</label>
+        <input type="text" class="form-control" id="txtapellido"><br />
+        <div class="mb-3">
+            <label for="formFile" class="form-label">
+                Adjunte una foto del rostro</label>
+            <input class="form-control" type="file" id="formFile">
+        </div>
+        <br />
+        <br />
+        <h5>
+            SEXO</h5>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="chmasculino">
+            <label class="form-check-label" for="flexRadioDefault1">
+                Masculino
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="chfemenino"
+                checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+                Femenino
+            </label>
+        </div>
+        <br />
+        <br />
+        <br />
+    </div>
+    <br />
+    <div class="col-md-3">
+        <select class="form-select form-select-padding-x-lg" aria-label="Default select example"
+            id="cbciudad">
+            <option selected>Ciudad</option>
+            <option value="1">Dean Funes</option>
+            <option value="2">Tulumba</option>
+            <option value="3">Quilino</option>
+        </select>
+    </div>
 </asp:Content>
