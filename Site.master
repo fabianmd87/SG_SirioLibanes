@@ -59,8 +59,8 @@
                     <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="menu" data-bs-toggle="dropdown" aria-expanded="false"> BENEFICIOS </a>
                         <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="./Beneficios/Alquilerdesalon/AlquilerSalon.aspx">Alquiler de Salon</a></li>
-                        <li><a class="dropdown-item" href="./Beneficios/Panteon/Panteon.aspx">Panteon privado</a></li>
+                        <li><a class="dropdown-item" href="/SG_SirioLibanes/Beneficios/Alquilerdesalon/AlquilerSalon.aspx">Alquiler de Salon</a></li>
+                        <li><a class="dropdown-item" href="/SG_SirioLibanes/Beneficios/Panteon/Panteon.aspx">Panteon privado</a></li>
                         </ul>
                     <!--control de socios -->
                     <li class="nav-item dropdown">
@@ -71,20 +71,20 @@
    --------------------------------------------------->
                         
                         <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="./Socios/DatosSocio.aspx">Mis Datos</a></li>
-                        <li><a class="dropdown-item" href="./Socios/GestionCobranza.aspx">Cobranza</a></li>
-                        <li><a class="dropdown-item" href="./Socios/GestionBeneficio.aspx">Gestion Beneficio</a></li>
-                        <li><a class="dropdown-item" href="./Socios/EmisionCarnet.aspx">Emision Carnet</a></li>
+                        <li><a class="dropdown-item" href="/SG_SirioLibanes/Socios/DatosSocio.aspx">Mis Datos</a></li>
+                        <li><a class="dropdown-item" href="/SG_SirioLibanes/Socios/GestionCobranza.aspx">Cobranza</a></li>
+                        <li><a class="dropdown-item" href="/SG_SirioLibanes/Socios/GestionBeneficio.aspx">Gestion Beneficio</a></li>
+                        <li><a class="dropdown-item" href="/SG_SirioLibanes/Socios/EmisionCarnet.aspx">Emision Carnet</a></li>
                                                                     
                         <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="./Socios/Administracion.aspx">Administracion</a></li>
+                        <li><a class="dropdown-item" href="/SG_SirioLibanes/Socios/Administracion.aspx">Administracion</a></li>
                         </ul>
                     </li>
                     <!--control de deportes -->
 					    <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="menu" data-bs-toggle="dropdown" aria-expanded="false"> DEPORTES </a>
                         <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="./Deportes/Basquet/index.aspx">Basquet</a></li>
+                        <li><a class="dropdown-item" href="/SG_SirioLibanes/Deportes/Basquet/index.aspx">Basquet</a></li>
                         <li><a class="dropdown-item" href="#">Comedia Musical</a></li>
                         <li><a class="dropdown-item" href="#">Danza Arabe</a></li>
                         <li><a class="dropdown-item" href="#">Patin</a></li>

@@ -301,11 +301,23 @@ div.accountInfo
 	.carousel-inner img {
       height: 450px;
 	  width: 300px;
-	  padding-top: auto;
-	  text-align:center
+	  padding-top:auto;
+	  text-align:center;
   }
   
   .carousel-slide {
       height: 500px;
 	  width: 100%;
   }
+  
+  
+  .card-img{
+      width:50px;
+      height:50px;
+      }
+
+
+.cbcomponente
+{   
+    style: col-md-5;
+    }

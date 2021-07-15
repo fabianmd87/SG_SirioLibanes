@@ -27,17 +27,18 @@
                     ≡
                 </button>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <li><a class="dropdown-item" href="./Contactos.aspx">Contactos</a></li>
-                    <li><a class="dropdown-item" href="./Estadisticas.aspx">Estadisticas</a></li>
-                    <li><a class="dropdown-item" href="./FotosVideos.aspx">Fotos y Videos</a></li>
-                    <li><a class="dropdown-item" href="./InscripcionJugador.aspx">Inscripcion Jugador</a></li>
+                    <li><a class="dropdown-item" href="/SG_SirioLibanes/Deportes/Basquet/Contactos.aspx">Contactos</a></li>
+                    <li><a class="dropdown-item" href="/SG_SirioLibanes/Deportes/Basquet/Estadisticas.aspx">Estadisticas</a></li>
+                    <li><a class="dropdown-item" href="/SG_SirioLibanes/Deportes/Basquet/FotosVideos.aspx">Fotos y Videos</a></li>
+                    <li><a class="dropdown-item" href="/SG_SirioLibanes/Deportes/Basquet/InscripcionJugador.aspx">Inscripcion Jugador</a></li>
                     <li><a class="dropdown-item" href="./TorneosCompetencias.aspx">Torneos y competencias</a></li>
                 </ul>
             </div>
         </div>
-    </div><br /><br /><br />
-    <div class="card" align="center">
-        <img src="//Imagenes/foto3_index_basquet.jpg" class="card-img">
+    </div><br /><br />
+    <div class="card" style="width: 60rem;">
+        <img src="/SG_SirioLibanes/Imagenes/foto3_index_basquet.jpg" class="card-img" 
+            align="middle" alt="200" height="500">
         <div class="card-body">
             <p class="card-text">
                 Subcomision de Basquet - Sociedad Sirio Libanesa Dean Funes</p>
