@@ -41,4 +41,7 @@
     <br />
     <br />
     <br />
+   
+        <!--COLOCAR UNA TABLA CON LAS ESTADISTICAS NECESARIAS -->
+   
 </asp:Content>
