@@ -41,4 +41,43 @@
     <br />
     <br />
     <br />
+    <br />
+    <br />
+    <br />
+    <br />
+  <div class="card-group">
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Prof. Martin Lopez</h5>
+      <p class="card-text">Enseñanza en categorias "mini, u13 femenino y masculino, u15 femenino y masculino y u17 masculino".</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">e-mail de contacto: </small>
+      <a href="https://www.gmail.com" class="card-link">fabianmd87@gmail.com</a>
+    </div>
+  </div>
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Prof. Paula Lopez</h5>
+      <p class="card-text">Enseñanza en categorias "micro mosquitos, mosquitos, pre-mini y mini".</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">e-mail de contacto: </small>
+      <a href="https://www.gmail.com" class="card-link">fabianmd87@gmail.com</a>
+    </div>
+  </div>
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Prof. Kevin Jabsa</h5>
+      <p class="card-text">Enseñanza en categorias "micro mosquitos, mosquitos, pre-mini y mini".</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">e-mail de contacto: </small>
+      <a href="https://www.gmail.com" class="card-link">fabianmd87@gmail.com</a>
+    </div>
+  </div>
+</div>
 </asp:Content>
